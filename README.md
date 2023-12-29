@@ -7,16 +7,6 @@ been replaced with `build.zig`.
 
 A TreeSitter grammar for [Neorg](https://github.com/nvim-neorg/neorg).
 
-## Available Commands
-| Command           | Result																				|
-| -                 | -																						|
-| `yarn`            | installs needed dependencies (only do if you don't have `tree-sitter` in your path)	|
-| `yarn gen`		| `tree-sitter generate && node-gyp build`												|
-| `yarn test`		| `tree-sitter test`																	|
-
-- `npm` can be used instead of `yarn`
-- When `yarn` is used with no args then it's replaced with `node install`
-
 # Features
 - Has support for pretty much the entire specification
 - Isn't a massive editor hog
