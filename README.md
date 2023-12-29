@@ -1,4 +1,7 @@
 # NFF TreeSitter Parser 
+This is a fork of [`tree-sitter-norg`](https://github.com/nvim-neorg/tree-sitter-norg),
+packaged for Zig. Unnecessary files have been removed, and the build system has
+been replaced with `build.zig`.
 
 <img src="https://raw.githubusercontent.com/nvim-neorg/neorg/main/res/neorg.svg" width="70" height="70">
 

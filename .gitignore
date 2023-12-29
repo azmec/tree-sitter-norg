@@ -9,3 +9,5 @@ yarn.lock
 result/
 *.wasm
 *.o
+zig-cache
+zig-out
