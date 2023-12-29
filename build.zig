@@ -8,7 +8,9 @@ pub fn build(b: *std.Build) void {
     });
 
     obj.linkLibC();
+    obj.linkSystemLibrary("c++");
     obj.addCSourceFile(.{ .file = .{ .path = "src/parser.c" }, .flags = &.{} });
+    obj.addCSourceFile(.{ .file = .{ .path = "src/scanner.cc" }, .flags = &.{} });
     obj.addIncludePath(.{ .path = "src" });
 
     b.installArtifact(obj);
